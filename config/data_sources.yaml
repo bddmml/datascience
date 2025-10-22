@@ -1,0 +1,22 @@
+# Data Source Configuration
+
+# Yahoo Finance (free, no API key required)
+yahoo_finance:
+  enabled: true
+  default_interval: "1d"
+  timeout: 30
+
+# Alpha Vantage (requires API key)
+alpha_vantage:
+  enabled: false
+  api_key_env: "ALPHA_VANTAGE_API_KEY"  # Set in environment
+  default_interval: "daily"
+  timeout: 30
+
+# Polygon.io (requires API key)
+polygon:
+  enabled: false
+  api_key_env: "POLYGON_API_KEY"  # Set in environment
+  timeout: 30
+
+# Note: Store actual API keys in .env file (not tracked in git)

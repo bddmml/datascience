@@ -1,0 +1,20 @@
+# Trading Strategy Parameters
+
+# Moving Average Crossover Strategy
+sma_crossover:
+  short_window: 20
+  long_window: 50
+  risk_per_trade: 0.02  # 2% of portfolio per trade
+
+# RSI Strategy
+rsi_strategy:
+  rsi_period: 14
+  oversold_threshold: 30
+  overbought_threshold: 70
+  risk_per_trade: 0.02
+
+# General Settings
+general:
+  initial_capital: 100000
+  commission: 0.001  # 0.1% per trade
+  slippage: 0.0005   # 0.05% slippage

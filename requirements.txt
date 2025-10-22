@@ -1,0 +1,45 @@
+# Core Data Science Libraries
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Financial Data and Analysis
+yfinance>=0.2.0
+pandas-datareader>=0.10.0
+ta-lib>=0.4.0  # Technical Analysis Library (may require manual installation)
+TA-Lib>=0.4.0
+
+# Backtesting and Trading
+backtrader>=1.9.76
+zipline-reloaded>=2.4.0
+vectorbt>=0.25.0
+
+# Machine Learning (optional for ML-based strategies)
+scikit-learn>=1.2.0
+xgboost>=1.7.0
+lightgbm>=3.3.0
+
+# Statistical Analysis
+statsmodels>=0.14.0
+
+# API and Data Management
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0
+
+# Testing
+pytest>=7.3.0
+pytest-cov>=4.1.0
+
+# Jupyter
+jupyter>=1.0.0
+notebook>=6.5.0
+ipython>=8.12.0
